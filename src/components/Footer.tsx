@@ -59,11 +59,6 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenConsultation }) => {
                   {t.nav.governance}
                 </a>
               </li>
-              <li>
-                <a href="#testimonials" className="hover:text-amber-400 transition-colors">
-                  {t.nav.testimonials}
-                </a>
-              </li>
             </ul>
           </div>
 

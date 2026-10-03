@@ -12,7 +12,6 @@ import { InvestmentSectors } from './components/InvestmentSectors';
 import { InvestmentCalculator } from './components/InvestmentCalculator';
 import { PortfolioDeals } from './components/PortfolioDeals';
 import { GovernanceMethodology } from './components/GovernanceMethodology';
-import { TestimonialsAndProof } from './components/TestimonialsAndProof';
 import { ConsultationSection } from './components/ConsultationSection';
 import { BrochureModal } from './components/BrochureModal';
 import { Footer } from './components/Footer';
@@ -95,11 +94,6 @@ export default function App() {
 
         {/* Fiduciary Governance & 4 Pillars */}
         <GovernanceMethodology
-          lang={lang}
-        />
-
-        {/* Testimonials & Verified Proof */}
-        <TestimonialsAndProof
           lang={lang}
         />
 

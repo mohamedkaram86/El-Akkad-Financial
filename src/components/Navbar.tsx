@@ -41,9 +41,6 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang, onOpenConsul
           <a href="#governance" className="hover:text-amber-400 transition-colors whitespace-nowrap">
             {t.nav.governance}
           </a>
-          <a href="#testimonials" className="hover:text-amber-400 transition-colors whitespace-nowrap">
-            {t.nav.testimonials}
-          </a>
         </nav>
 
         {/* Zone 3: Primary Actions (Consultation button + Language switch) */}
@@ -114,13 +111,6 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang, onOpenConsul
             className="block py-2 text-sm font-medium text-neutral-300 hover:text-amber-400"
           >
             {t.nav.governance}
-          </a>
-          <a
-            href="#testimonials"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block py-2 text-sm font-medium text-neutral-300 hover:text-amber-400"
-          >
-            {t.nav.testimonials}
           </a>
 
           <div className="pt-3 border-t border-neutral-800 flex flex-col gap-2">
