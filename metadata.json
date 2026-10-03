@@ -1,0 +1,7 @@
+{
+  "name": "العقاد جروب للاستثمارات المالية | Al-Aqqad Financial Group",
+  "description": "منصة وشركة العقاد جروب لنخبة الخبراء في مجال الاستشارات والاستثمارات المالية وتخطيط المحافظ والأصول في الشرق الأوسط.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
